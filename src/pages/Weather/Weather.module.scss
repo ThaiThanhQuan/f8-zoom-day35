@@ -1,0 +1,54 @@
+.weather-app{
+}
+.app-header{
+    font-size: 2.8rem;
+    color: #f1c40f; 
+    margin-bottom: 15px;
+}
+.form-group{
+    .title{
+        font-size: 1.6rem;
+        margin-right: 8px;
+        color: #bdc3c7;
+    }
+    .select-city{
+        padding: 8px 12px;
+        font-size: 1.6rem;
+        border-radius: 6px;
+        border: none;
+        background-color: #34495e; 
+        color: #ecf0f1;
+        margin-bottom: 20px;
+    }
+}
+
+.weather-card{
+
+    background-color: #34495e; 
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+
+    .city{
+        font-size: 2.2rem;
+        color: #1abc9c; 
+    }
+}
+
+.refresh-btn{
+    margin-top: 12px;
+    padding: 10px 18px;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #1abc9c; 
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.refresh-btn:hover {
+    background-color: #16a085;
+}

@@ -9,11 +9,12 @@ import Comments from './pages/Comments'
 import Weather from './pages/Weather'
 import Buttons from './pages/Buttons'
 import Navigation from "./components/Navigation"
+import styles from './App.module.scss'
 
 function App() {
   return (
     <BrowserRouter>
-        <div className="App">
+        <div className={styles.app}>
             <Navigation/>
 
             <Routes>

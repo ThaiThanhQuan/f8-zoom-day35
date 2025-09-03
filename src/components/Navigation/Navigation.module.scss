@@ -1,13 +1,13 @@
 .title{
     font-size: 4.5rem;
     color: var(--white-color);
-    margin-bottom: 30px;
 }
 .wrapper{
     display: flex;
     justify-content: center;
     background: #0f172a;
     padding: 10px 20px;
+    margin: 30px 0;
 
     .app{
         position: relative;
