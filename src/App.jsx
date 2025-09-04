@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router"
+import { HashRouter, Routes, Route } from "react-router"
 
 import Home from './pages/Home'
 import Counter from './pages/Counter'
@@ -13,7 +13,7 @@ import styles from './App.module.scss'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <div className={styles.app}>
             <Navigation/>
 
@@ -28,7 +28,7 @@ function App() {
                 <Route path="/buttons" element={<Buttons/>}></Route>
             </Routes>
         </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
